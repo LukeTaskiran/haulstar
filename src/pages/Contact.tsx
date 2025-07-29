@@ -39,7 +39,7 @@ const Contact = () => {
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-lg">info@haulstar.ca</p>
+                  <p className="text-lg">haulstarr@gmail.com</p>
                   <p className="text-muted-foreground">We respond within 2 hours</p>
                 </CardContent>
               </Card>
