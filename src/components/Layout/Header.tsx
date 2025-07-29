@@ -25,9 +25,11 @@ const Header = () => {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
-            <div className="bg-gradient-hero rounded-full p-2 w-12 h-12 flex items-center justify-center">
-              <span className="text-white font-bold text-lg">⭐</span>
-            </div>
+            <img 
+              src="/lovable-uploads/c97d3a45-7f06-448e-82c4-9eb8dccf0c43.png" 
+              alt="Haul Star Logo" 
+              className="w-12 h-12 object-contain"
+            />
             <div>
               <h1 className="text-2xl font-bold text-primary">HAUL STAR</h1>
               <p className="text-xs text-muted-foreground font-medium">YOU CALL, WE HAUL</p>
