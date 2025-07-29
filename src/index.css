@@ -8,7 +8,7 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Haul Star Purple & Black Branding */
+    /* Haul Star Red & Yellow Branding (from actual logo) */
     --background: 0 0% 100%;
     --foreground: 0 0% 6%;
 
@@ -18,44 +18,44 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 6%;
 
-    --primary: 261 73% 37%; /* Deep Purple */
+    --primary: 0 73% 50%; /* Haul Star Red */
     --primary-foreground: 0 0% 98%;
 
-    --secondary: 260 8% 14%; /* Dark Charcoal */
+    --secondary: 0 0% 14%; /* Dark Gray */
     --secondary-foreground: 0 0% 98%;
 
     --muted: 0 0% 96%;
     --muted-foreground: 0 0% 45%;
 
-    --accent: 261 83% 47%; /* Vibrant Purple */
-    --accent-foreground: 0 0% 98%;
+    --accent: 45 100% 50%; /* Haul Star Yellow */
+    --accent-foreground: 0 0% 6%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
 
     --border: 0 0% 89.8%;
     --input: 0 0% 89.8%;
-    --ring: 261 73% 37%;
+    --ring: 0 73% 50%;
 
     --radius: 0.75rem;
 
     /* Haul Star Specific Colors */
-    --haul-purple: 261 73% 37%;
-    --haul-purple-light: 261 83% 47%;
-    --haul-purple-dark: 261 63% 27%;
+    --haul-red: 0 73% 50%; /* Primary red from logo */
+    --haul-red-dark: 0 73% 40%;
+    --haul-yellow: 45 100% 50%; /* Yellow star color */
+    --haul-yellow-light: 45 100% 60%;
     --haul-black: 0 0% 6%;
     --haul-gray: 0 0% 45%;
-    --haul-orange: 24 100% 50%; /* Trust accent */
     
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--accent)));
-    --gradient-hero: linear-gradient(135deg, hsl(var(--haul-purple)), hsl(var(--haul-purple-light)));
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--haul-red-dark)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--haul-red)), hsl(var(--accent)));
     --gradient-subtle: linear-gradient(180deg, hsl(var(--background)), hsl(var(--muted)));
     
     /* Shadows */
     --shadow-primary: 0 10px 30px -10px hsl(var(--primary) / 0.3);
     --shadow-card: 0 4px 12px -2px hsl(var(--foreground) / 0.1);
-    --shadow-glow: 0 0 40px hsl(var(--accent) / 0.2);
+    --shadow-glow: 0 0 40px hsl(var(--accent) / 0.4);
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;

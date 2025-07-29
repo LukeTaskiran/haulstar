@@ -10,13 +10,13 @@ const Footer = () => {
         <div className="py-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="space-y-4">
-            <div className="flex items-center space-x-2">
-              <div className="bg-gradient-hero rounded-lg p-2">
-                <span className="text-white font-bold text-xl">HS</span>
+            <div className="flex items-center space-x-3">
+              <div className="bg-gradient-hero rounded-full p-2 w-12 h-12 flex items-center justify-center">
+                <span className="text-white font-bold text-lg">⭐</span>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-white">Haul Star</h3>
-                <p className="text-sm text-gray-300">You Call. We Haul.</p>
+                <h3 className="text-xl font-bold text-white">HAUL STAR</h3>
+                <p className="text-sm text-gray-300 font-medium">YOU CALL, WE HAUL</p>
               </div>
             </div>
             <p className="text-gray-300 text-sm">
@@ -73,14 +73,14 @@ const Footer = () => {
             <div className="space-y-3 text-sm">
               <div className="flex items-center space-x-3">
                 <Phone className="h-4 w-4 text-primary" />
-                <a href="tel:+1-416-555-0123" className="text-gray-300 hover:text-white transition-colors">
-                  (416) 555-0123
+                <a href="tel:+1-647-406-5261" className="text-gray-300 hover:text-white transition-colors">
+                  (647) 406-5261
                 </a>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-4 w-4 text-primary" />
-                <a href="mailto:info@haulstar.ca" className="text-gray-300 hover:text-white transition-colors">
-                  info@haulstar.ca
+                <a href="mailto:haulstarr@gmail.com" className="text-gray-300 hover:text-white transition-colors">
+                  haulstarr@gmail.com
                 </a>
               </div>
               <div className="flex items-start space-x-3">

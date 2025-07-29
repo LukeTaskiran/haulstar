@@ -12,6 +12,7 @@ const Header = () => {
     { name: "About", href: "/about" },
     { name: "Services", href: "/services" },
     { name: "Pricing", href: "/pricing" },
+    { name: "Special Offers", href: "/offers" },
     { name: "Reviews", href: "/reviews" },
     { name: "Contact", href: "/contact" },
   ];
@@ -23,13 +24,13 @@ const Header = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
-            <div className="bg-gradient-hero rounded-lg p-2">
-              <span className="text-white font-bold text-xl">HS</span>
+          <Link to="/" className="flex items-center space-x-3">
+            <div className="bg-gradient-hero rounded-full p-2 w-12 h-12 flex items-center justify-center">
+              <span className="text-white font-bold text-lg">⭐</span>
             </div>
             <div>
-              <h1 className="text-2xl font-bold text-gradient-primary">Haul Star</h1>
-              <p className="text-xs text-muted-foreground">You Call. We Haul.</p>
+              <h1 className="text-2xl font-bold text-primary">HAUL STAR</h1>
+              <p className="text-xs text-muted-foreground font-medium">YOU CALL, WE HAUL</p>
             </div>
           </Link>
 
@@ -53,9 +54,9 @@ const Header = () => {
           {/* CTA Buttons - Desktop */}
           <div className="hidden md:flex items-center space-x-4">
             <Button variant="outline" size="sm" asChild>
-              <a href="tel:+1-416-555-0123" className="flex items-center space-x-2">
+              <a href="tel:+1-647-406-5261" className="flex items-center space-x-2">
                 <Phone className="h-4 w-4" />
-                <span>(416) 555-0123</span>
+                <span>(647) 406-5261</span>
               </a>
             </Button>
             <Button asChild className="shadow-primary">
@@ -91,9 +92,9 @@ const Header = () => {
               ))}
               <div className="flex flex-col space-y-2 pt-4">
                 <Button variant="outline" size="sm" asChild>
-                  <a href="tel:+1-416-555-0123" className="flex items-center justify-center space-x-2">
+                  <a href="tel:+1-647-406-5261" className="flex items-center justify-center space-x-2">
                     <Phone className="h-4 w-4" />
-                    <span>(416) 555-0123</span>
+                    <span>(647) 406-5261</span>
                   </a>
                 </Button>
                 <Button asChild className="shadow-primary">

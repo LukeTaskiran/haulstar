@@ -44,12 +44,14 @@ const Home = () => {
   ];
 
   const differentiators = [
+    "10% OFF your first move!",
+    "Student & Senior Discounts Available", 
+    "Refer a Friend & Get $25 OFF your next move",
     "Transparent flat-rate pricing",
     "No time limits — we stay until it's done",
     "Truck rental included in cost",
     "Emergency and last-minute availability",
-    "Real-time quote estimates",
-    "Trained, professional movers"
+    "Fully Licensed & Insured"
   ];
 
   const testimonials = [
@@ -110,9 +112,9 @@ const Home = () => {
                 </Link>
               </Button>
               <Button size="lg" variant="outline" asChild className="border-white text-white hover:bg-white hover:text-primary">
-                <a href="tel:+1-416-555-0123" className="flex items-center space-x-2">
+                <a href="tel:+1-647-406-5261" className="flex items-center space-x-2">
                   <Phone className="h-5 w-5" />
-                  <span>(416) 555-0123</span>
+                  <span>(647) 406-5261</span>
                 </a>
               </Button>
             </div>
@@ -284,9 +286,9 @@ const Home = () => {
               </Link>
             </Button>
             <Button size="lg" variant="outline" asChild className="border-white text-white hover:bg-white hover:text-primary">
-              <a href="tel:+1-416-555-0123" className="flex items-center space-x-2">
+              <a href="tel:+1-647-406-5261" className="flex items-center space-x-2">
                 <Phone className="h-5 w-5" />
-                <span>Call Now: (416) 555-0123</span>
+                <span>Call Now: (647) 406-5261</span>
               </a>
             </Button>
           </div>
