@@ -100,20 +100,16 @@ const About = () => {
               <h2 className="text-3xl md:text-4xl font-bold mb-6">Our Story</h2>
               <div className="space-y-4 text-lg text-muted-foreground">
                 <p>
-                  Haul Star was founded in 2019 when our founder, Mike Thompson, got tired of 
-                  hearing horror stories about moving companies that overcharged, showed up late, 
-                  or damaged customers' belongings.
+                  Haul Star was created to fix everything people hate about moving. No more surprise charges. No more late arrivals. No more careless handling.
                 </p>
                 <p>
-                  As a lifelong Ontario resident, Mike knew there had to be a better way. 
-                  He assembled a team of professional, trained movers who shared his vision: 
-                  transparent pricing, no time limits, and treating every customer's move 
-                  like it was their own.
+                  Founded by a local Ontario mover who believed there had to be a better way, Haul Star was built on one mission: <strong>make moving honest, stress-free, and actually helpful.</strong>
                 </p>
                 <p>
-                  Today, we're proud to be Ontario's most transparent moving company, 
-                  serving families, students, seniors, and businesses across the province 
-                  with the honesty and care they deserve.
+                  We brought together a reliable team of trained pros who treat every home like their own. Whether you're a student heading to campus, a family upsizing, or a senior downsizing — we offer <strong>transparent pricing, no time limits, and real care</strong> every step of the way.
+                </p>
+                <p>
+                  Today, Haul Star proudly serves communities across Ontario as the province’s most trusted, no-nonsense moving company.
                 </p>
               </div>
               
