@@ -44,13 +44,13 @@ const Home = () => {
   ];
 
   const differentiators = [
-    "10% OFF your first move!",
+    "$100 OFF your first move!",
     "Student & Senior Discounts Available", 
-    "Refer a Friend & Get $25 OFF your next move",
+    "Refer a Friend & Get $100 OFF your next move",
     "Transparent flat-rate pricing",
     "No time limits — we stay until it's done",
     "Truck rental included in cost",
-    "Emergency and last-minute availability",
+    "Available 7am to 10pm daily",
     "Fully Licensed & Insured"
   ];
 
@@ -213,7 +213,7 @@ const Home = () => {
                     <Award className="h-6 w-6 text-white" />
                   </div>
                   <div>
-                    <p className="font-semibold">500+ Happy Customers</p>
+                    <p className="font-semibold">1500+ Happy Customers</p>
                     <p className="text-sm text-muted-foreground">This year alone</p>
                   </div>
                 </div>

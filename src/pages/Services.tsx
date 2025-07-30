@@ -23,78 +23,84 @@ const Services = () => {
       icon: Truck,
       title: "Local & Long Distance Moving",
       description: "Professional moving services across Ontario with transparent flat-rate pricing.",
-      features: [
-        "Local moves within 100km",
-        "Long-distance moves across Ontario",
-        "Truck rental included",
-        "Professional packing materials",
-        "Furniture padding and protection"
-      ],
+       features: [
+         "Local moves within 100km",
+         "Long-distance moves across Ontario",
+         "Truck rental included",
+         "Professional packing materials",
+         "Furniture padding and protection",
+         "Furniture disassembly/assembly"
+       ],
       startingPrice: "From $349"
     },
     {
       icon: Package,
       title: "Junk Removal",
       description: "Eco-friendly junk removal and disposal services for homes and businesses.",
-      features: [
-        "Furniture and appliance removal",
-        "Construction debris cleanup",
-        "Estate cleanouts",
-        "Donation and recycling",
-        "Same-day service available"
-      ],
-      startingPrice: "From $199"
+       features: [
+         "Furniture and appliance removal",
+         "Construction debris cleanup",
+         "Estate cleanouts",
+         "Donation and recycling",
+         "Same-day service available",
+         "Free when purchasing moving service"
+       ],
+      startingPrice: "Starting at $100"
     },
     {
       icon: Home,
       title: "Packing & Unpacking",
       description: "Professional packing services to ensure your belongings arrive safely.",
-      features: [
-        "Full-service packing",
-        "Partial packing assistance",
-        "Quality packing materials",
-        "Fragile item specialty packing",
-        "Unpacking at destination"
-      ],
-      startingPrice: "From $49/hour"
+       features: [
+         "Full-service packing",
+         "Partial packing assistance",
+         "Quality packing materials",
+         "Fragile item specialty packing",
+         "Unpacking at destination",
+         "Furniture protection pads"
+       ],
+      startingPrice: "$200 flat"
     },
     {
       icon: Wrench,
       title: "Furniture Assembly",
       description: "Expert disassembly and reassembly of furniture and specialty items.",
-      features: [
-        "Bed frame disassembly/assembly",
-        "Dining table and desk setup",
-        "Wardrobe and cabinet assembly",
-        "TV mounting and setup",
-        "Exercise equipment assembly"
-      ],
+       features: [
+         "Bed frame disassembly/assembly",
+         "Dining table and desk setup",
+         "Wardrobe and cabinet assembly",
+         "TV mounting and setup",
+         "Exercise equipment assembly",
+         "Furniture protection pads included"
+       ],
       startingPrice: "From $89"
     },
     {
       icon: Building,
       title: "Commercial Moving",
       description: "Specialized moving services for businesses, offices, and commercial spaces.",
-      features: [
-        "Office relocations",
-        "Retail store moves",
-        "Warehouse transfers",
-        "Equipment and machinery moving",
-        "Minimal business downtime"
-      ],
+       features: [
+         "Office relocations",
+         "Retail store moves",
+         "Warehouse transfers",
+         "Equipment and machinery moving",
+         "Minimal business downtime",
+         "Furniture disassembly/assembly included"
+       ],
       startingPrice: "Custom Quote"
     },
     {
       icon: Users,
       title: "Specialty Services",
       description: "Customized moving solutions for unique situations and special requirements.",
-      features: [
-        "Senior moving assistance",
-        "Student dorm moves",
-        "Piano and artwork moving",
-        "Storage unit transfers",
-        "Emergency last-minute moves"
-      ],
+       features: [
+         "Senior moving assistance",
+         "Student dorm moves",
+         "Piano and artwork moving",
+         "Storage unit transfers",
+         "Emergency last-minute moves",
+         "Furniture protection pads included"
+       ],
       startingPrice: "From $249"
     }
   ];

@@ -22,11 +22,11 @@ const Pricing = () => {
       popular: false,
       description: "Perfect for small apartments and studio moves",
       features: [
-        "Up to 500 sq ft",
-        "1-2 professional movers",
-        "Pickup truck or cargo van",
-        "Basic moving equipment",
-        "Up to 2 hours work",
+        "Professional movers included",
+        "Moving truck included",
+        "Full equipment package",
+        "Furniture disassembly/assembly",
+        "Furniture protection pads",
         "Local moves (within 100km)"
       ],
       notIncluded: [
@@ -40,13 +40,12 @@ const Pricing = () => {
       popular: true,
       description: "Most popular choice for average families",
       features: [
-        "Up to 1,200 sq ft",
-        "2-3 professional movers",
-        "14' moving truck",
-        "Professional equipment",
-        "Up to 4 hours work",
+        "Professional movers included",
+        "Moving truck included",
+        "Full equipment package",
         "Furniture disassembly/assembly",
-        "Basic furniture padding"
+        "Furniture protection pads",
+        "Free junk removal"
       ],
       notIncluded: [
         "Packing service",
@@ -59,13 +58,12 @@ const Pricing = () => {
       popular: false,
       description: "Comprehensive service for larger homes",
       features: [
-        "Up to 2,000+ sq ft",
-        "3-4 professional movers",
-        "17' or 26' moving truck",
+        "Professional movers included",
+        "Moving truck included",
         "Full equipment package",
-        "Up to 6 hours work",
-        "Complete furniture service",
-        "Premium furniture protection",
+        "Furniture disassembly/assembly",
+        "Furniture protection pads",
+        "Free junk removal",
         "Heavy item specialists"
       ],
       notIncluded: [
@@ -78,7 +76,7 @@ const Pricing = () => {
   const additionalServices = [
     {
       service: "Packing Service",
-      price: "$49/hour per packer",
+      price: "$200 flat",
       description: "Professional packing with quality materials"
     },
     {
@@ -87,24 +85,14 @@ const Pricing = () => {
       description: "Boxes, tape, bubble wrap, paper"
     },
     {
-      service: "Furniture Assembly",
-      price: "$89 per item",
-      description: "Expert disassembly and reassembly"
-    },
-    {
       service: "Junk Removal",
-      price: "From $199",
+      price: "Starting at $100 or free when purchasing moving service",
       description: "Eco-friendly disposal and donation"
     },
     {
       service: "Long Distance",
       price: "$1.50/km",
       description: "Additional charge for moves over 100km"
-    },
-    {
-      service: "Emergency Service",
-      price: "+25%",
-      description: "Same-day or next-day scheduling"
     }
   ];
 
@@ -189,10 +177,10 @@ const Pricing = () => {
                 )}
                 <CardHeader className="text-center pb-8">
                   <CardTitle className="text-2xl mb-2">{tier.title}</CardTitle>
-                  <div className="mb-4">
-                    <span className="text-4xl font-bold text-primary">{tier.price}</span>
-                    <span className="text-muted-foreground ml-1">flat rate</span>
-                  </div>
+                   <div className="mb-4">
+                     <span className="text-4xl font-bold text-primary">{tier.price}</span>
+                     <span className="text-muted-foreground ml-1">starting at a flat rate</span>
+                   </div>
                   <CardDescription className="text-base">{tier.description}</CardDescription>
                 </CardHeader>
                 
@@ -375,11 +363,10 @@ const Pricing = () => {
                 <div className="mx-auto bg-gradient-hero w-16 h-16 rounded-lg flex items-center justify-center mb-4">
                   <Shield className="h-8 w-8 text-white" />
                 </div>
-                <CardTitle>Satisfaction Guarantee</CardTitle>
-                <CardDescription>
-                  Not happy with our service? We'll make it right or refund 
-                  your money.
-                </CardDescription>
+                 <CardTitle>Satisfaction Guarantee</CardTitle>
+                 <CardDescription>
+                   We guarantee your satisfaction with our professional moving service.
+                 </CardDescription>
               </CardHeader>
             </Card>
           </div>
@@ -392,10 +379,9 @@ const Pricing = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Ready for Transparent Pricing?
           </h2>
-          <p className="text-xl mb-8 max-w-2xl mx-auto text-gray-100">
-            Get your exact flat-rate quote in under 2 minutes. No phone calls required, 
-            no personal information until you're ready to book.
-          </p>
+           <p className="text-xl mb-8 max-w-2xl mx-auto text-gray-100">
+             Call for a free quote! Get your exact flat-rate quote from our experts.
+           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" asChild className="shadow-glow bg-white text-primary hover:bg-gray-100">
@@ -404,9 +390,9 @@ const Pricing = () => {
                 <ArrowRight className="h-5 w-5" />
               </Link>
             </Button>
-            <Button size="lg" variant="outline" asChild className="border-white text-white hover:bg-white hover:text-primary">
-              <a href="tel:+1-416-555-0123">Call for Custom Quote</a>
-            </Button>
+             <Button size="lg" variant="outline" asChild className="border-white text-white hover:bg-white hover:text-primary">
+               <a href="tel:+1-647-406-5261">Call (647) 406-5261</a>
+             </Button>
           </div>
         </div>
       </section>

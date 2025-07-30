@@ -23,23 +23,14 @@ const Footer = () => {
               Ontario's most transparent and reliable moving company. 
               We stay until the job is done, with no time limits.
             </p>
-            <div className="flex space-x-4">
-              <Button variant="outline" size="sm" asChild>
-                <a href="https://facebook.com/haulstar" target="_blank" rel="noopener noreferrer">
-                  <Facebook className="h-4 w-4" />
-                </a>
-              </Button>
-              <Button variant="outline" size="sm" asChild>
-                <a href="https://instagram.com/haulstar" target="_blank" rel="noopener noreferrer">
-                  <Instagram className="h-4 w-4" />
-                </a>
-              </Button>
-              <Button variant="outline" size="sm" asChild>
-                <a href="https://g.page/haulstar" target="_blank" rel="noopener noreferrer">
-                  <Star className="h-4 w-4" />
-                </a>
-              </Button>
-            </div>
+             <div className="space-y-2 text-sm">
+               <div className="flex items-center space-x-3">
+                 <Phone className="h-4 w-4 text-primary" />
+                 <a href="tel:+1-416-270-0159" className="text-gray-300 hover:text-white transition-colors">
+                   Tarun Mehta: (416) 270-0159
+                 </a>
+               </div>
+             </div>
           </div>
 
           {/* Quick Links */}

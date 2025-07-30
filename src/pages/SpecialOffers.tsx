@@ -17,29 +17,29 @@ const SpecialOffers = () => {
   const offers = [
     {
       icon: Gift,
-      title: "10% OFF Your First Move!",
-      description: "New customers save 10% on their first moving service with Haul Star.",
+      title: "$100 OFF Your First Move!",
+      description: "New customers save $100 on their first moving service with Haul Star.",
       badge: "New Customer",
       color: "bg-green-500"
     },
     {
       icon: Users,
       title: "Senior Discount",
-      description: "15% off all moving services for seniors 65+. We're honored to help with your transition.",
+      description: "$100 off all moving services for seniors 65+. We're honored to help with your transition.",
       badge: "65+ Years",
       color: "bg-blue-500"
     },
     {
       icon: UserCheck,
       title: "Student Discount", 
-      description: "10% off for students with valid ID. Making education more affordable.",
+      description: "$100 off for students with valid ID. Making education more affordable.",
       badge: "Student ID Required",
       color: "bg-purple-500"
     },
     {
       icon: Percent,
       title: "Refer a Friend",
-      description: "Get $25 OFF your next move when you refer a friend who books with us.",
+      description: "Get $100 OFF your next move when you refer a friend who books with us.",
       badge: "Win-Win",
       color: "bg-orange-500"
     }

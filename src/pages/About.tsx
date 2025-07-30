@@ -41,19 +41,19 @@ const About = () => {
 
   const team = [
     {
-      name: "Mike Thompson",
+      name: "Tarun Mehta",
       role: "Founder & Lead Mover",
       experience: "8+ years",
       description: "Started Haul Star to bring honesty back to the moving industry."
     },
     {
-      name: "Sarah Chen",
+      name: "Jalen Griffin",
       role: "Operations Manager",
       experience: "5+ years",
       description: "Ensures every move runs smoothly from booking to completion."
     },
     {
-      name: "David Rodriguez",
+      name: "Luke Taskiran",
       role: "Senior Mover",
       experience: "6+ years",
       description: "Expert in furniture assembly and specialty item handling."
@@ -61,7 +61,7 @@ const About = () => {
   ];
 
   const achievements = [
-    { number: "500+", label: "Happy Customers" },
+    { number: "1500+", label: "Happy Customers" },
     { number: "4.9/5", label: "Average Rating" },
     { number: "99%", label: "On-Time Rate" },
     { number: "0", label: "Hidden Fees" }
@@ -127,9 +127,9 @@ const About = () => {
                 className="rounded-lg shadow-card w-full"
               />
               <div className="absolute -bottom-6 -right-6 bg-white p-6 rounded-lg shadow-card">
-                <div className="text-center">
-                  <div className="text-2xl font-bold text-primary">500+</div>
-                  <div className="text-sm text-muted-foreground">Successful Moves</div>
+                 <div className="text-center">
+                   <div className="text-2xl font-bold text-primary">1500+</div>
+                   <div className="text-sm text-muted-foreground">Successful Moves</div>
                   <div className="flex justify-center mt-2">
                     {[...Array(5)].map((_, i) => (
                       <Star key={i} className="h-4 w-4 fill-yellow-400 text-yellow-400" />
@@ -288,9 +288,9 @@ const About = () => {
             <Button size="lg" asChild className="shadow-glow bg-white text-primary hover:bg-gray-100">
               <Link to="/estimate">Get Free Estimate</Link>
             </Button>
-            <Button size="lg" variant="outline" asChild className="border-white text-white hover:bg-white hover:text-primary">
-              <a href="tel:+1-416-555-0123">Call (416) 555-0123</a>
-            </Button>
+             <Button size="lg" variant="outline" asChild className="border-white text-white hover:bg-white hover:text-primary">
+               <a href="tel:+1-647-406-5261">Call (647) 406-5261</a>
+             </Button>
           </div>
         </div>
       </section>
