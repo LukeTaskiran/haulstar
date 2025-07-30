@@ -43,20 +43,20 @@ const About = () => {
     {
       name: "Tarun Mehta",
       role: "Founder & Lead Mover",
-      experience: "8+ years",
+      experience: "3+ years",
       description: "Started Haul Star to bring honesty back to the moving industry."
     },
     {
       name: "Jalen Griffin",
       role: "Operations Manager",
-      experience: "5+ years",
+      experience: "4+ years",
       description: "Ensures every move runs smoothly from booking to completion."
     },
     {
       name: "Luke Taskiran",
-      role: "Senior Mover",
-      experience: "6+ years",
-      description: "Expert in furniture assembly and specialty item handling."
+      role: "CTO",
+      experience: "2+ years",
+      description: "Expert in furniture assembly and software development."
     }
   ];
 
