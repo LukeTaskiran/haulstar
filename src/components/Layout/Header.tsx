@@ -49,9 +49,26 @@ const Header = () => {
 
           {/* CTA Buttons - Desktop */}
           <div className="hidden md:flex items-center space-x-4">
-            <Button variant="outline" size="sm" asChild>
-              
-            </Button>
+            <div className="flex flex-col items-end space-y-1">
+              <Button variant="outline" size="sm" asChild>
+                <a href="tel:+1-647-406-5261" className="flex items-center space-x-2">
+                  <Phone className="h-4 w-4" />
+                  <div className="flex flex-col items-start">
+                    <span className="font-medium">(647) 406-5261</span>
+                    <span className="text-xs text-muted-foreground">Main Office</span>
+                  </div>
+                </a>
+              </Button>
+              <Button variant="outline" size="sm" asChild>
+                <a href="tel:+1-416-270-0159" className="flex items-center space-x-2">
+                  <Phone className="h-4 w-4" />
+                  <div className="flex flex-col items-start">
+                    <span className="font-medium">(416) 270-0159</span>
+                    <span className="text-xs text-muted-foreground">Tarun Mehta</span>
+                  </div>
+                </a>
+              </Button>
+            </div>
             <Button asChild className="shadow-primary">
               <Link to="/estimate">Get Free Estimate</Link>
             </Button>
@@ -73,7 +90,19 @@ const Header = () => {
                 <Button variant="outline" size="sm" asChild>
                   <a href="tel:+1-647-406-5261" className="flex items-center justify-center space-x-2">
                     <Phone className="h-4 w-4" />
-                    <span>(647) 406-5261</span>
+                    <div className="flex flex-col items-center">
+                      <span className="font-medium">(647) 406-5261</span>
+                      <span className="text-xs text-muted-foreground">Main Office</span>
+                    </div>
+                  </a>
+                </Button>
+                <Button variant="outline" size="sm" asChild>
+                  <a href="tel:+1-416-270-0159" className="flex items-center justify-center space-x-2">
+                    <Phone className="h-4 w-4" />
+                    <div className="flex flex-col items-center">
+                      <span className="font-medium">(416) 270-0159</span>
+                      <span className="text-xs text-muted-foreground">Tarun Mehta</span>
+                    </div>
                   </a>
                 </Button>
                 <Button asChild className="shadow-primary">
