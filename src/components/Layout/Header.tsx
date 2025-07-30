@@ -55,7 +55,7 @@ const Header = () => {
                   <Phone className="h-4 w-4" />
                   <div className="flex flex-col items-start">
                     <span className="font-semibold">(647) 406-5261</span>
-                    <span className="text-xs text-muted-foreground">Main Office</span>
+                    <span className="text-xs text-muted-foreground">Jalen</span>
                   </div>
                 </a>
               </Button>
@@ -64,7 +64,7 @@ const Header = () => {
                   <Phone className="h-4 w-4" />
                   <div className="flex flex-col items-start">
                     <span className="font-medium">(416) 270-0159</span>
-                    <span className="text-xs text-muted-foreground">Tarun Mehta</span>
+                    <span className="text-xs text-muted-foreground">Tarun</span>
                   </div>
                 </a>
               </Button>
@@ -92,7 +92,7 @@ const Header = () => {
                     <Phone className="h-4 w-4" />
                     <div className="flex flex-col items-center">
                       <span className="font-medium">(647) 406-5261</span>
-                      <span className="text-xs text-muted-foreground">Jalen</span>
+                      <span className="text-xs text-muted-foreground">Jalen Griffin</span>
                     </div>
                   </a>
                 </Button>
@@ -101,7 +101,7 @@ const Header = () => {
                     <Phone className="h-4 w-4" />
                     <div className="flex flex-col items-center">
                       <span className="font-medium">(416) 270-0159</span>
-                      <span className="text-xs text-muted-foreground">Tarun</span>
+                      <span className="text-xs text-muted-foreground">Tarun Mehta</span>
                     </div>
                   </a>
                 </Button>
