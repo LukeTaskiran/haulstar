@@ -1,10 +1,8 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Phone, Mail, MapPin, Facebook, Instagram, Star } from "lucide-react";
-
 const Footer = () => {
-  return (
-    <footer className="bg-secondary text-secondary-foreground">
+  return <footer className="bg-secondary text-secondary-foreground">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Main Footer Content */}
         <div className="py-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -24,12 +22,7 @@ const Footer = () => {
               We stay until the job is done, with no time limits.
             </p>
              <div className="space-y-2 text-sm">
-               <div className="flex items-center space-x-3">
-                 <Phone className="h-4 w-4 text-primary" />
-                 <a href="tel:+1-416-270-0159" className="text-gray-300 hover:text-white transition-colors">
-                   Tarun Mehta: (416) 270-0159
-                 </a>
-               </div>
+               
              </div>
           </div>
 
@@ -102,8 +95,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
