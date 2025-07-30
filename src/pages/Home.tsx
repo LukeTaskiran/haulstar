@@ -113,7 +113,6 @@ const Home = () => {
               </Button>
              <Button
                 size="lg"
-                variant="outline"
                 asChild
                 className="border-white text-white"
               >
@@ -125,7 +124,6 @@ const Home = () => {
               
               <Button
                 size="lg"
-                variant="outline"
                 asChild
                 className="border-white text-white"
               >
