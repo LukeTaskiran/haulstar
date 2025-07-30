@@ -111,10 +111,27 @@ const Home = () => {
                   <ArrowRight className="h-5 w-5" />
                 </Link>
               </Button>
-              <Button size="lg" variant="outline" asChild className="border-white text-white hover:bg-white hover:text-primary">
+              <Button
+                size="lg"
+                variant="outline"
+                asChild
+                className="border-white text-white"
+              >
                 <a href="tel:+1-647-406-5261" className="flex items-center space-x-2">
                   <Phone className="h-5 w-5" />
                   <span>(647) 406-5261</span>
+                </a>
+              </Button>
+            
+              <Button
+                size="lg"
+                variant="outline"
+                asChild
+                className="border-white text-white"
+              >
+                <a href="tel:+1-416-270-0159" className="flex items-center space-x-2">
+                  <Phone className="h-5 w-5" />
+                  <span>(416) 270-0159</span>
                 </a>
               </Button>
             </div>
