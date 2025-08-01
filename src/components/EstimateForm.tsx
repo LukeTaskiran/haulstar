@@ -164,10 +164,18 @@ const EstimateForm = () => {
       // Prepare form data for JSON storage
       const { serviceType, name, email, phone, ...serviceSpecificData } = values;
       
-      const formData = {
-        ...serviceSpecificData,
-        imageUrls,
-      };
+      // Clean up arrays to ensure they're properly formatted
+      const cleanedData = { ...serviceSpecificData };
+      
+      // Handle junkTypes array properly
+      if (cleanedData.junkTypes && Array.isArray(cleanedData.junkTypes)) {
+        cleanedData.junkTypes = cleanedData.junkTypes.filter(item => item && item.trim() !== '');
+      }
+      
+      // Add image URLs only if there are any
+      if (imageUrls.length > 0) {
+        cleanedData.imageUrls = imageUrls;
+      }
 
       // Submit to Supabase
       const { error } = await supabase
@@ -178,7 +186,7 @@ const EstimateForm = () => {
             email,
             phone,
             service_type: serviceType,
-            form_data: formData,
+            form_data: cleanedData,
           }
         ]);
 
