@@ -219,7 +219,7 @@ const Home = () => {
             </div>
 
             <div className="mt-6 text-sm text-yellow-200">
-              <p>✅ 1,500+ students moved this year | ✅ Licensed & Insured | ✅ No hidden fees</p>
+              <p>✅ 500+ students moved this year | ✅ Licensed & Insured | ✅ No hidden fees</p>
             </div>
           </div>
         </div>
