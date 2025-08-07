@@ -13,7 +13,10 @@ import {
   ArrowRight,
   CheckCircle,
   Award,
-  MapPin
+  MapPin,
+  GraduationCap,
+  Calendar,
+  AlertTriangle
 } from "lucide-react";
 import heroTruck from "@/assets/hero-truck.jpg";
 import professionalMovers from "@/assets/professional-movers.jpg";
@@ -147,6 +150,76 @@ const Home = () => {
                 <MapPin className="h-5 w-5 text-blue-400" />
                 <span>All of Ontario</span>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Student Offer Banner - FOMO Section */}
+      <section className="py-16 bg-gradient-to-r from-red-600 to-orange-600 text-white relative overflow-hidden">
+        <div className="absolute inset-0 bg-black/20" />
+        <div className="relative container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center max-w-4xl mx-auto">
+            <div className="flex items-center justify-center space-x-2 mb-4">
+              <AlertTriangle className="h-6 w-6 text-yellow-300 animate-pulse" />
+              <Badge className="bg-yellow-500 text-black font-bold px-4 py-2 text-lg animate-bounce">
+                ⏰ LIMITED TIME - BACK TO SCHOOL SPECIAL
+              </Badge>
+              <AlertTriangle className="h-6 w-6 text-yellow-300 animate-pulse" />
+            </div>
+            
+            <h2 className="text-3xl md:text-5xl font-bold mb-4 leading-tight">
+              🎓 Students Save BIG This August!
+            </h2>
+            
+            <div className="bg-white/10 backdrop-blur rounded-xl p-6 mb-6">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="text-center">
+                  <div className="text-4xl font-bold text-yellow-300 mb-2">$100 OFF</div>
+                  <p className="text-lg">Your First Move with Code</p>
+                  <div className="bg-yellow-500 text-black px-4 py-2 rounded-lg font-bold text-xl mt-2">
+                    STUDENT100
+                  </div>
+                </div>
+                <div className="text-center">
+                  <div className="text-4xl font-bold text-green-300 mb-2">50% OFF</div>
+                  <p className="text-lg">With Haul Share Program</p>
+                  <p className="text-sm text-gray-200 mt-2">Share truck with other students</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-red-700/80 border-l-4 border-yellow-400 p-4 mb-6 rounded-r-lg">
+              <div className="flex items-center justify-center space-x-2">
+                <Calendar className="h-5 w-5 text-yellow-300" />
+                <p className="text-lg font-semibold">
+                  ⚡ HURRY: Only 15 student slots left for August moves!
+                </p>
+              </div>
+              <p className="text-sm mt-2 text-gray-100">
+                Back-to-school season is HERE. Book within 48 hours or miss out!
+              </p>
+            </div>
+
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Button size="lg" asChild className="shadow-glow bg-yellow-500 text-black hover:bg-yellow-400 text-xl px-8 py-4 font-bold">
+                <Link to="/student" className="flex items-center space-x-2">
+                  <GraduationCap className="h-6 w-6" />
+                  <span>Claim Student Deal NOW!</span>
+                  <ArrowRight className="h-5 w-5" />
+                </Link>
+              </Button>
+              
+              <Button size="lg" variant="outline" asChild className="border-white text-white hover:bg-white hover:text-red-600 text-xl px-8 py-4 font-bold">
+                <Link to="/estimate" className="flex items-center space-x-2">
+                  <span>Get Free Quote</span>
+                  <ArrowRight className="h-5 w-5" />
+                </Link>
+              </Button>
+            </div>
+
+            <div className="mt-6 text-sm text-yellow-200">
+              <p>✅ 1,500+ students moved this year | ✅ Licensed & Insured | ✅ No hidden fees</p>
             </div>
           </div>
         </div>
