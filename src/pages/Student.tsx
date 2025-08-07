@@ -102,7 +102,7 @@ const Student = () => {
             </h1>
             
             <p className="text-xl md:text-2xl mb-4 text-gray-100 max-w-3xl mx-auto">
-              Exclusive Offer for Students — Affordable, Fast, and Hassle-Free Moving with HaulStar
+              Hey Students! We’ve got an exclusive offer just for you. Making your move back to school affordable, quick, and stress-free with HaulStar. Let us help you get settled in without the hassle!
             </p>
             
             <div className="bg-red-600/90 text-white p-4 rounded-lg mb-8 max-w-2xl mx-auto">
