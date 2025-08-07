@@ -309,7 +309,7 @@ const Student = () => {
             </div>
             
             <h3 className="text-3xl md:text-4xl font-bold mb-4">
-              Over 1,500 Happy Students Moved This Year!
+              Over 500+ Happy Students Moved This Year!
             </h3>
             
             <p className="text-xl text-muted-foreground mb-8">
