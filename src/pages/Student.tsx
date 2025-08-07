@@ -102,7 +102,7 @@ const Student = () => {
             </h1>
             
             <p className="text-xl md:text-2xl mb-4 text-gray-100 max-w-3xl mx-auto">
-              Hey Students! Don't cram everything in the back! We've helped countless students move hassle-free with affordable, fast service at HaulStar. We help all over Ontario!
+              Hey Students! Don't cram everything in the back. We've helped countless students move hassle-free with affordable, fast service at HaulStar. We help all over Ontario!
             </p>
             
             <div className="bg-red-600/90 text-white p-4 rounded-lg mb-8 max-w-2xl mx-auto">
