@@ -32,6 +32,7 @@ const baseFormSchema = z.object({
   email: z.string().email("Please enter a valid email address"),
   phone: z.string().min(10, "Please enter a valid phone number"),
   serviceType: z.enum(["Moving", "Junk Removal", "Furniture Delivery", "Custom Hauling"]),
+  preferredDate: z.date().optional(),
 });
 
 // Dynamic schemas for each service type
@@ -261,13 +262,13 @@ const EstimateForm = () => {
           <h3 className="text-xl font-bold mb-2">Need a Quote Faster?</h3>
           <p className="mb-4">Call for a free estimate!</p>
           <div className="flex flex-col sm:flex-row gap-2 justify-center text-sm">
-            <a href="tel:647-406-5261" className="font-semibold hover:underline">
-              (647) 406-5261 - Jalen
+            <a href="tel:647-956-4818" className="font-semibold hover:underline">
+              (647) 956-4818 - 24/7 Agent Riley
             </a>
             <span className="hidden sm:inline">|</span>
-            <a href="tel:416-270-0159" className="font-semibold hover:underline">
-              (416) 270-0159 - Tarun
-            </a>
+            <div className="text-xs text-muted-foreground">
+              Owners: <a href="tel:647-406-5261" className="hover:underline">(647) 406-5261 - Jalen</a> | <a href="tel:416-270-0159" className="hover:underline">(416) 270-0159 - Tarun</a>
+            </div>
           </div>
         </CardContent>
       </Card>
@@ -373,6 +374,50 @@ const EstimateForm = () => {
                         <FormControl>
                           <Input placeholder="john@example.com" type="email" {...field} />
                         </FormControl>
+                        <FormMessage />
+                      </FormItem>
+                    )}
+                  />
+                  
+                  <FormField
+                    control={form.control}
+                    name="preferredDate"
+                    render={({ field }) => (
+                      <FormItem className="flex flex-col">
+                        <FormLabel>Preferred Service Date</FormLabel>
+                        <Popover>
+                          <PopoverTrigger asChild>
+                            <FormControl>
+                              <Button
+                                variant="outline"
+                                className={cn(
+                                  "w-full pl-3 text-left font-normal",
+                                  !field.value && "text-muted-foreground"
+                                )}
+                              >
+                                {field.value ? (
+                                  format(field.value, "PPP")
+                                ) : (
+                                  <span>When do you need this service?</span>
+                                )}
+                                <CalendarIcon className="ml-auto h-4 w-4 opacity-50" />
+                              </Button>
+                            </FormControl>
+                          </PopoverTrigger>
+                          <PopoverContent className="w-auto p-0" align="start">
+                            <Calendar
+                              mode="single"
+                              selected={field.value}
+                              onSelect={field.onChange}
+                              disabled={(date) => date < new Date()}
+                              initialFocus
+                              className="pointer-events-auto"
+                            />
+                          </PopoverContent>
+                        </Popover>
+                        <FormDescription>
+                          Select your preferred date for service
+                        </FormDescription>
                         <FormMessage />
                       </FormItem>
                     )}

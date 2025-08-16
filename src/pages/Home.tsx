@@ -119,9 +119,9 @@ const Home = () => {
                 asChild
                 className="border-white text-white"
               >
-                <a href="tel:+1-647-406-5261" className="flex items-center space-x-2 text-white">
+                <a href="tel:+1-647-956-4818" className="flex items-center space-x-2 text-white">
                   <Phone className="h-5 w-5 text-white" />
-                  <span className="text-white">(647) 406-5261</span>
+                  <span className="text-white">(647) 956-4818 - 24/7 Agent Riley</span>
                 </a>
               </Button>
               
@@ -130,9 +130,9 @@ const Home = () => {
                 asChild
                 className="border-white text-white"
               >
-                <a href="tel:+1-416-270-0159" className="flex items-center space-x-2 text-white">
+                <a href="tel:+1-647-406-5261" className="flex items-center space-x-2 text-white">
                   <Phone className="h-5 w-5 text-white" />
-                  <span className="text-white">(416) 270-0159</span>
+                  <span className="text-white">(647) 406-5261 - Jalen</span>
                 </a>
               </Button>
             </div>
@@ -374,9 +374,9 @@ const Home = () => {
               </Link>
             </Button>
             <Button size="lg" variant="outline" asChild className="border-white text-white hover:bg-white hover:text-primary">
-              <a href="tel:+1-647-406-5261" className="flex items-center space-x-2">
+              <a href="tel:+1-647-956-4818" className="flex items-center space-x-2">
                 <Phone className="h-5 w-5" />
-                <span>Call Now: (647) 406-5261</span>
+                <span>Call Now: (647) 956-4818 - 24/7 Agent Riley</span>
               </a>
             </Button>
           </div>

@@ -58,24 +58,24 @@ const Header = () => {
           {/* CTA Buttons - Desktop */}
           <div className="hidden md:flex items-center space-x-4">
             <div className="flex flex-col items-end space-y-1">
-              <Button variant="outline" size="sm" asChild>
-                <a href="tel:+1-647-406-5261" className="flex items-center space-x-2">
-                  <Phone className="h-4 w-4" />
-                  <div className="flex flex-col items-start">
-                    <span className="font-semibold">(647) 406-5261</span>
-                    <span className="text-xs text-muted-foreground">Jalen</span>
-                  </div>
-                </a>
-              </Button>
-              <Button variant="outline" size="sm" asChild>
-                <a href="tel:+1-416-270-0159" className="flex items-center space-x-2">
-                  <Phone className="h-4 w-4" />
-                  <div className="flex flex-col items-start">
-                    <span className="font-medium">(416) 270-0159</span>
-                    <span className="text-xs text-muted-foreground">Tarun</span>
-                  </div>
-                </a>
-              </Button>
+                <Button variant="default" size="sm" asChild>
+                  <a href="tel:+1-647-956-4818" className="flex items-center space-x-2">
+                    <Phone className="h-4 w-4" />
+                    <div className="flex flex-col items-start">
+                      <span className="font-semibold">(647) 956-4818</span>
+                      <span className="text-xs text-primary-foreground">24/7 Agent Riley</span>
+                    </div>
+                  </a>
+                </Button>
+                <Button variant="outline" size="sm" asChild>
+                  <a href="tel:+1-647-406-5261" className="flex items-center space-x-2">
+                    <Phone className="h-4 w-4" />
+                    <div className="flex flex-col items-start">
+                      <span className="font-medium">(647) 406-5261</span>
+                      <span className="text-xs text-muted-foreground">Jalen</span>
+                    </div>
+                  </a>
+                </Button>
             </div>
             <Button asChild className="shadow-primary">
               <Link to="/estimate">Get Free Estimate</Link>

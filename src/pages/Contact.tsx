@@ -26,8 +26,11 @@ const Contact = () => {
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-2xl font-semibold">(647) 406-5261</p>
-                  <p className="text-muted-foreground">Available 7 days a week, 8 AM - 8 PM</p>
+                  <p className="text-2xl font-semibold">(647) 956-4818</p>
+                  <p className="text-muted-foreground">24/7 Agent Riley - Available 7 days a week</p>
+                  <p className="text-sm text-muted-foreground mt-2">
+                    Owners: (647) 406-5261 - Jalen | (416) 270-0159 - Tarun
+                  </p>
                 </CardContent>
               </Card>
 

@@ -289,7 +289,7 @@ const About = () => {
               <Link to="/estimate">Get Free Estimate</Link>
             </Button>
              <Button size="lg" variant="outline" asChild className="border-white text-white hover:bg-white hover:text-primary">
-               <a href="tel:+1-647-406-5261">Call (647) 406-5261</a>
+                <a href="tel:+1-647-956-4818">Call (647) 956-4818 - 24/7 Agent Riley</a>
              </Button>
           </div>
         </div>
