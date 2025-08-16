@@ -110,11 +110,11 @@ const Header = () => {
               ))}
               <div className="flex flex-col space-y-2 pt-4">
                 <Button variant="outline" size="sm" asChild>
-                  <a href="tel:+1-647-406-5261" className="flex items-center justify-center space-x-2">
+                  <a href="tel:+1-647-956-4818" className="flex items-center justify-center space-x-2">
                     <Phone className="h-4 w-4" />
                     <div className="flex flex-col items-center">
-                      <span className="font-medium">(647) 406-5261</span>
-                      <span className="text-xs text-muted-foreground">Jalen Griffin</span>
+                      <span className="font-medium">(647) 956-4818</span>
+                      <span className="text-xs text-muted-foreground">24/7 Agent Riley</span>
                     </div>
                   </a>
                 </Button>
